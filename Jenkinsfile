@@ -24,10 +24,5 @@ pipeline{
                 echo "Deploy started and completed"
             }
         }
-        stage('Complete') {
-            steps{
-                echo "Check - completed"
-            }
-        }
     }
 } 
